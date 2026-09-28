@@ -1,0 +1,6 @@
+train: Dataset/train # Path to training files, example: [train/images, moretraining/images]
+val:  Dataset/val # Path to val files, example: [val/images, moreval/images]
+test: TestImages  # Path to the testImages folder, example: ../../testImages
+nc: 3
+names: ['cheerios', 'soup',"candle"]#麦片、汤罐、蜡烛
+run:  .\multi-class-object-detection-challenge\run
